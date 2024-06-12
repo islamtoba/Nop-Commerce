@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="43" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-12T08:28:39 EEST" name="Nop Commerce Testcases" finished-at="2024-06-12T08:28:39 EEST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Nop Commerce Testcases -->
+  <suite started-at="2024-06-12T08:26:36 EEST" name="Nop Commerce Testcases (5)" finished-at="2024-06-12T08:28:39 EEST" duration-ms="122986">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:26:36 EEST" name="userAddToCart" finished-at="2024-06-12T08:26:58 EEST" duration-ms="22303">
+      <class name="testcases.TC09_AddToCartSenario">
+        <test-method signature="userAddToCart()[pri:1, instance:testcases.TC09_AddToCartSenario@7fd69dd]" started-at="2024-06-12T08:26:48 EEST" name="userAddToCart" description="User can Add Product to Cart" finished-at="2024-06-12T08:26:57 EEST" duration-ms="9415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCart -->
+      </class> <!-- testcases.TC09_AddToCartSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@6da9dc6]" started-at="2024-06-12T08:26:36 EEST" name="setupDriver" finished-at="2024-06-12T08:26:40 EEST" duration-ms="4503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@6da9dc6]" started-at="2024-06-12T08:26:40 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:26:48 EEST" duration-ms="7132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@6da9dc6]" started-at="2024-06-12T08:26:57 EEST" name="tearDown" finished-at="2024-06-12T08:26:58 EEST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToCart -->
+    <test started-at="2024-06-12T08:26:58 EEST" name="userAddToWishList" finished-at="2024-06-12T08:27:21 EEST" duration-ms="23113">
+      <class name="testcases.TC10_AddToWishListSenario">
+        <test-method signature="userAddToWishList()[pri:1, instance:testcases.TC10_AddToWishListSenario@3971f0fe]" started-at="2024-06-12T08:27:10 EEST" name="userAddToWishList" description="User can Add Product to WishList" finished-at="2024-06-12T08:27:20 EEST" duration-ms="9102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToWishList -->
+      </class> <!-- testcases.TC10_AddToWishListSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@552ed807]" started-at="2024-06-12T08:26:58 EEST" name="setupDriver" finished-at="2024-06-12T08:27:03 EEST" duration-ms="4514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@552ed807]" started-at="2024-06-12T08:27:03 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:27:10 EEST" duration-ms="7671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@552ed807]" started-at="2024-06-12T08:27:20 EEST" name="tearDown" finished-at="2024-06-12T08:27:21 EEST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToWishList -->
+    <test started-at="2024-06-12T08:27:21 EEST" name="userAddToCompareList" finished-at="2024-06-12T08:27:45 EEST" duration-ms="23265">
+      <class name="testcases.TC11_AddToCompareListSenario">
+        <test-method signature="userAddToCompareList()[pri:1, instance:testcases.TC11_AddToCompareListSenario@7318daf8]" started-at="2024-06-12T08:27:32 EEST" name="userAddToCompareList" description="User can Add Product to Compare List" finished-at="2024-06-12T08:27:43 EEST" duration-ms="10489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCompareList -->
+      </class> <!-- testcases.TC11_AddToCompareListSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@455824ad]" started-at="2024-06-12T08:27:21 EEST" name="setupDriver" finished-at="2024-06-12T08:27:25 EEST" duration-ms="3705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@455824ad]" started-at="2024-06-12T08:27:25 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:27:32 EEST" duration-ms="7258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@455824ad]" started-at="2024-06-12T08:27:43 EEST" name="tearDown" finished-at="2024-06-12T08:27:45 EEST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToCompareList -->
+    <test started-at="2024-06-12T08:27:45 EEST" name="createSuccessfulOrder" finished-at="2024-06-12T08:28:39 EEST" duration-ms="54278">
+      <class name="testcases.TC15_ConfirmOrder">
+        <test-method signature="createSuccessfulOrder()[pri:1, instance:testcases.TC15_ConfirmOrder@50a691d3]" started-at="2024-06-12T08:28:37 EEST" name="createSuccessfulOrder" description="User can Add Product to Compare List" finished-at="2024-06-12T08:28:37 EEST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuccessfulOrder -->
+      </class> <!-- testcases.TC15_ConfirmOrder -->
+      <class name="testcases.TC14_EditFillingAdress">
+        <test-method signature="Edit_BillingAdress()[pri:1, instance:testcases.TC14_EditFillingAdress@540b0448]" started-at="2024-06-12T08:28:21 EEST" name="Edit_BillingAdress" description="Filling Adress and Information and confirm" finished-at="2024-06-12T08:28:37 EEST" duration-ms="16342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_BillingAdress -->
+      </class> <!-- testcases.TC14_EditFillingAdress -->
+      <class name="testcases.TC09_AddToCartSenario">
+        <test-method signature="userAddToCart()[pri:1, instance:testcases.TC09_AddToCartSenario@37864b77]" started-at="2024-06-12T08:27:58 EEST" name="userAddToCart" description="User can Add Product to Cart" finished-at="2024-06-12T08:28:08 EEST" duration-ms="9429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCart -->
+      </class> <!-- testcases.TC09_AddToCartSenario -->
+      <class name="testcases.TC12_CheckoutIteams">
+        <test-method signature="checkoutIteams()[pri:1, instance:testcases.TC12_CheckoutIteams@2b98b3bb]" started-at="2024-06-12T08:28:08 EEST" name="checkoutIteams" description="Filling Adress and Information and confirm" finished-at="2024-06-12T08:28:21 EEST" duration-ms="13114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutIteams -->
+      </class> <!-- testcases.TC12_CheckoutIteams -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@661c46bc]" started-at="2024-06-12T08:27:45 EEST" name="setupDriver" finished-at="2024-06-12T08:27:49 EEST" duration-ms="4524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@661c46bc]" started-at="2024-06-12T08:27:49 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:27:58 EEST" duration-ms="9034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@661c46bc]" started-at="2024-06-12T08:28:37 EEST" name="tearDown" finished-at="2024-06-12T08:28:39 EEST" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- createSuccessfulOrder -->
+  </suite> <!-- Nop Commerce Testcases (5) -->
+  <suite started-at="2024-06-12T08:25:11 EEST" name="Nop Commerce Testcases (3)" finished-at="2024-06-12T08:25:52 EEST" duration-ms="40905">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:25:11 EEST" name="loginWithValidData_P" finished-at="2024-06-12T08:25:24 EEST" duration-ms="12490">
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@681e144]" started-at="2024-06-12T08:25:11 EEST" name="setupDriver" finished-at="2024-06-12T08:25:16 EEST" duration-ms="4066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@681e144]" started-at="2024-06-12T08:25:16 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:25:23 EEST" duration-ms="7073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@681e144]" started-at="2024-06-12T08:25:23 EEST" name="tearDown" finished-at="2024-06-12T08:25:24 EEST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- loginWithValidData_P -->
+    <test started-at="2024-06-12T08:25:24 EEST" name="resetPassword" finished-at="2024-06-12T08:25:38 EEST" duration-ms="14165">
+      <class name="testcases.TC03_ResetPassword">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_ResetPassword@68c7ef83]" started-at="2024-06-12T08:25:24 EEST" name="setupDriver" finished-at="2024-06-12T08:25:28 EEST" duration-ms="3959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="resetPassword()[pri:1, instance:testcases.TC03_ResetPassword@68c7ef83]" started-at="2024-06-12T08:25:28 EEST" name="resetPassword" description="Reset Password" finished-at="2024-06-12T08:25:37 EEST" duration-ms="9220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_ResetPassword@68c7ef83]" started-at="2024-06-12T08:25:37 EEST" name="tearDown" finished-at="2024-06-12T08:25:38 EEST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_ResetPassword -->
+    </test> <!-- resetPassword -->
+    <test started-at="2024-06-12T08:25:38 EEST" name="searchForAnyProduct" finished-at="2024-06-12T08:25:52 EEST" duration-ms="14234">
+      <class name="testcases.TC04_SearchFunction">
+        <test-method signature="searchForAnyProduct()[pri:1, instance:testcases.TC04_SearchFunction@33db72bd]" started-at="2024-06-12T08:25:49 EEST" name="searchForAnyProduct" description="Search for a product" finished-at="2024-06-12T08:25:51 EEST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAnyProduct -->
+      </class> <!-- testcases.TC04_SearchFunction -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@64b7225f]" started-at="2024-06-12T08:25:38 EEST" name="setupDriver" finished-at="2024-06-12T08:25:42 EEST" duration-ms="3810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@64b7225f]" started-at="2024-06-12T08:25:42 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:25:49 EEST" duration-ms="7300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@64b7225f]" started-at="2024-06-12T08:25:51 EEST" name="tearDown" finished-at="2024-06-12T08:25:52 EEST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- searchForAnyProduct -->
+  </suite> <!-- Nop Commerce Testcases (3) -->
+  <suite started-at="2024-06-12T08:25:52 EEST" name="Nop Commerce Testcases (4)" finished-at="2024-06-12T08:26:36 EEST" duration-ms="43592">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:25:52 EEST" name="changeCurrency" finished-at="2024-06-12T08:26:04 EEST" duration-ms="12034">
+      <class name="testcases.TC05_ChangeCurrency">
+        <test-method signature="changeCurrency()[pri:1, instance:testcases.TC05_ChangeCurrency@4beeb0e]" started-at="2024-06-12T08:26:03 EEST" name="changeCurrency" description="Change Currency" finished-at="2024-06-12T08:26:03 EEST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCurrency -->
+      </class> <!-- testcases.TC05_ChangeCurrency -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@6c1832aa]" started-at="2024-06-12T08:25:52 EEST" name="setupDriver" finished-at="2024-06-12T08:25:56 EEST" duration-ms="3646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@6c1832aa]" started-at="2024-06-12T08:25:56 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:26:03 EEST" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@6c1832aa]" started-at="2024-06-12T08:26:03 EEST" name="tearDown" finished-at="2024-06-12T08:26:04 EEST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- changeCurrency -->
+    <test started-at="2024-06-12T08:26:04 EEST" name="chooseRandomCategory" finished-at="2024-06-12T08:26:18 EEST" duration-ms="14091">
+      <class name="testcases.TC06_SelectRandomCategorie">
+        <test-method signature="chooseRandomCategory()[pri:1, instance:testcases.TC06_SelectRandomCategorie@3b46dd8]" started-at="2024-06-12T08:26:16 EEST" name="chooseRandomCategory" description="Choose randomly Category" finished-at="2024-06-12T08:26:18 EEST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseRandomCategory -->
+      </class> <!-- testcases.TC06_SelectRandomCategorie -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@70211e49]" started-at="2024-06-12T08:26:04 EEST" name="setupDriver" finished-at="2024-06-12T08:26:08 EEST" duration-ms="3947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@70211e49]" started-at="2024-06-12T08:26:08 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:26:16 EEST" duration-ms="7223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@70211e49]" started-at="2024-06-12T08:26:18 EEST" name="tearDown" finished-at="2024-06-12T08:26:18 EEST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- chooseRandomCategory -->
+    <test started-at="2024-06-12T08:26:18 EEST" name="TC07_UserSelectDiffCatg" finished-at="2024-06-12T08:26:36 EEST" duration-ms="17448">
+      <class name="testcases.TC07_UserSelectDiffCatg">
+        <test-method signature="userSelectDiffCatg()[pri:1, instance:testcases.TC07_UserSelectDiffCatg@33364212]" started-at="2024-06-12T08:26:30 EEST" name="userSelectDiffCatg" description="User Select specific Category" finished-at="2024-06-12T08:26:34 EEST" duration-ms="4532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectDiffCatg -->
+      </class> <!-- testcases.TC07_UserSelectDiffCatg -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@134c370e]" started-at="2024-06-12T08:26:18 EEST" name="setupDriver" finished-at="2024-06-12T08:26:23 EEST" duration-ms="4356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@134c370e]" started-at="2024-06-12T08:26:23 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:26:30 EEST" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@134c370e]" started-at="2024-06-12T08:26:34 EEST" name="tearDown" finished-at="2024-06-12T08:26:36 EEST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- TC07_UserSelectDiffCatg -->
+  </suite> <!-- Nop Commerce Testcases (4) -->
+  <suite started-at="2024-06-12T08:22:30 EEST" name="Nop Commerce Testcases (1)" finished-at="2024-06-12T08:23:10 EEST" duration-ms="39891">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:22:30 EEST" name="changeCurrency" finished-at="2024-06-12T08:22:41 EEST" duration-ms="11573">
+      <class name="testcases.TC05_ChangeCurrency">
+        <test-method signature="changeCurrency()[pri:1, instance:testcases.TC05_ChangeCurrency@58b67519]" started-at="2024-06-12T08:22:41 EEST" name="changeCurrency" description="Change Currency" finished-at="2024-06-12T08:22:41 EEST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCurrency -->
+      </class> <!-- testcases.TC05_ChangeCurrency -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@598260a6]" started-at="2024-06-12T08:22:30 EEST" name="setupDriver" finished-at="2024-06-12T08:22:33 EEST" duration-ms="3252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@598260a6]" started-at="2024-06-12T08:22:33 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:22:41 EEST" duration-ms="7669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@598260a6]" started-at="2024-06-12T08:22:41 EEST" name="tearDown" finished-at="2024-06-12T08:22:41 EEST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- changeCurrency -->
+    <test started-at="2024-06-12T08:22:41 EEST" name="chooseRandomCategory" finished-at="2024-06-12T08:22:54 EEST" duration-ms="12626">
+      <class name="testcases.TC06_SelectRandomCategorie">
+        <test-method signature="chooseRandomCategory()[pri:1, instance:testcases.TC06_SelectRandomCategorie@7c1c5936]" started-at="2024-06-12T08:22:51 EEST" name="chooseRandomCategory" description="Choose randomly Category" finished-at="2024-06-12T08:22:54 EEST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseRandomCategory -->
+      </class> <!-- testcases.TC06_SelectRandomCategorie -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@5e8c34a0]" started-at="2024-06-12T08:22:41 EEST" name="setupDriver" finished-at="2024-06-12T08:22:44 EEST" duration-ms="2425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@5e8c34a0]" started-at="2024-06-12T08:22:44 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:22:51 EEST" duration-ms="7695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@5e8c34a0]" started-at="2024-06-12T08:22:54 EEST" name="tearDown" finished-at="2024-06-12T08:22:54 EEST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- chooseRandomCategory -->
+    <test started-at="2024-06-12T08:22:54 EEST" name="TC07_UserSelectDiffCatg" finished-at="2024-06-12T08:23:10 EEST" duration-ms="15677">
+      <class name="testcases.TC07_UserSelectDiffCatg">
+        <test-method signature="userSelectDiffCatg()[pri:1, instance:testcases.TC07_UserSelectDiffCatg@4b869331]" started-at="2024-06-12T08:23:04 EEST" name="userSelectDiffCatg" description="User Select specific Category" finished-at="2024-06-12T08:23:09 EEST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectDiffCatg -->
+      </class> <!-- testcases.TC07_UserSelectDiffCatg -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@37ce3644]" started-at="2024-06-12T08:22:54 EEST" name="setupDriver" finished-at="2024-06-12T08:22:57 EEST" duration-ms="2634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@37ce3644]" started-at="2024-06-12T08:22:57 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:23:04 EEST" duration-ms="7844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@37ce3644]" started-at="2024-06-12T08:23:09 EEST" name="tearDown" finished-at="2024-06-12T08:23:10 EEST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- TC07_UserSelectDiffCatg -->
+  </suite> <!-- Nop Commerce Testcases (1) -->
+  <suite started-at="2024-06-12T08:23:10 EEST" name="Nop Commerce Testcases (2)" finished-at="2024-06-12T08:25:11 EEST" duration-ms="121843">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:23:10 EEST" name="userAddToCart" finished-at="2024-06-12T08:23:29 EEST" duration-ms="19118">
+      <class name="testcases.TC09_AddToCartSenario">
+        <test-method signature="userAddToCart()[pri:1, instance:testcases.TC09_AddToCartSenario@4038cd3a]" started-at="2024-06-12T08:23:20 EEST" name="userAddToCart" description="User can Add Product to Cart" finished-at="2024-06-12T08:23:29 EEST" duration-ms="8284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCart -->
+      </class> <!-- testcases.TC09_AddToCartSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@15d0849]" started-at="2024-06-12T08:23:10 EEST" name="setupDriver" finished-at="2024-06-12T08:23:13 EEST" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@15d0849]" started-at="2024-06-12T08:23:13 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:23:20 EEST" duration-ms="7674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@15d0849]" started-at="2024-06-12T08:23:29 EEST" name="tearDown" finished-at="2024-06-12T08:23:29 EEST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToCart -->
+    <test started-at="2024-06-12T08:23:29 EEST" name="userAddToWishList" finished-at="2024-06-12T08:23:49 EEST" duration-ms="20621">
+      <class name="testcases.TC10_AddToWishListSenario">
+        <test-method signature="userAddToWishList()[pri:1, instance:testcases.TC10_AddToWishListSenario@7e94d093]" started-at="2024-06-12T08:23:39 EEST" name="userAddToWishList" description="User can Add Product to WishList" finished-at="2024-06-12T08:23:49 EEST" duration-ms="10066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToWishList -->
+      </class> <!-- testcases.TC10_AddToWishListSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@270b6b5e]" started-at="2024-06-12T08:23:29 EEST" name="setupDriver" finished-at="2024-06-12T08:23:31 EEST" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@270b6b5e]" started-at="2024-06-12T08:23:31 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:23:39 EEST" duration-ms="7734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@270b6b5e]" started-at="2024-06-12T08:23:49 EEST" name="tearDown" finished-at="2024-06-12T08:23:49 EEST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToWishList -->
+    <test started-at="2024-06-12T08:23:49 EEST" name="userAddToCompareList" finished-at="2024-06-12T08:24:12 EEST" duration-ms="23137">
+      <class name="testcases.TC11_AddToCompareListSenario">
+        <test-method signature="userAddToCompareList()[pri:1, instance:testcases.TC11_AddToCompareListSenario@138caeca]" started-at="2024-06-12T08:24:01 EEST" name="userAddToCompareList" description="User can Add Product to Compare List" finished-at="2024-06-12T08:24:12 EEST" duration-ms="11239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCompareList -->
+      </class> <!-- testcases.TC11_AddToCompareListSenario -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@167279d1]" started-at="2024-06-12T08:23:49 EEST" name="setupDriver" finished-at="2024-06-12T08:23:53 EEST" duration-ms="3320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@167279d1]" started-at="2024-06-12T08:23:53 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:24:01 EEST" duration-ms="8446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@167279d1]" started-at="2024-06-12T08:24:12 EEST" name="tearDown" finished-at="2024-06-12T08:24:12 EEST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- userAddToCompareList -->
+    <test started-at="2024-06-12T08:24:12 EEST" name="createSuccessfulOrder" finished-at="2024-06-12T08:25:11 EEST" duration-ms="58955">
+      <class name="testcases.TC13_FillingBillingAdress">
+        <test-method signature="fillAdressAndInformation()[pri:1, instance:testcases.TC13_FillingBillingAdress@4d178d55]" started-at="2024-06-12T08:24:48 EEST" name="fillAdressAndInformation" description="Filling Adress and Information and confirm" finished-at="2024-06-12T08:25:11 EEST" duration-ms="23133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAdressAndInformation -->
+      </class> <!-- testcases.TC13_FillingBillingAdress -->
+      <class name="testcases.TC15_ConfirmOrder">
+        <test-method signature="createSuccessfulOrder()[pri:1, instance:testcases.TC15_ConfirmOrder@38c2c309]" started-at="2024-06-12T08:25:11 EEST" name="createSuccessfulOrder" description="User can Add Product to Compare List" finished-at="2024-06-12T08:25:11 EEST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuccessfulOrder -->
+      </class> <!-- testcases.TC15_ConfirmOrder -->
+      <class name="testcases.TC09_AddToCartSenario">
+        <test-method signature="userAddToCart()[pri:1, instance:testcases.TC09_AddToCartSenario@1706a5c9]" started-at="2024-06-12T08:24:25 EEST" name="userAddToCart" description="User can Add Product to Cart" finished-at="2024-06-12T08:24:35 EEST" duration-ms="10016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddToCart -->
+      </class> <!-- testcases.TC09_AddToCartSenario -->
+      <class name="testcases.TC12_CheckoutIteams">
+        <test-method signature="checkoutIteams()[pri:1, instance:testcases.TC12_CheckoutIteams@64412d34]" started-at="2024-06-12T08:24:35 EEST" name="checkoutIteams" description="Filling Adress and Information and confirm" finished-at="2024-06-12T08:24:48 EEST" duration-ms="12953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutIteams -->
+      </class> <!-- testcases.TC12_CheckoutIteams -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@14dc3f89]" started-at="2024-06-12T08:24:12 EEST" name="setupDriver" finished-at="2024-06-12T08:24:16 EEST" duration-ms="3224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@14dc3f89]" started-at="2024-06-12T08:24:16 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:24:25 EEST" duration-ms="9034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@14dc3f89]" started-at="2024-06-12T08:25:11 EEST" name="tearDown" finished-at="2024-06-12T08:25:11 EEST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- createSuccessfulOrder -->
+  </suite> <!-- Nop Commerce Testcases (2) -->
+  <suite started-at="2024-06-12T08:21:33 EEST" name="Nop Commerce Testcases (0)" finished-at="2024-06-12T08:22:30 EEST" duration-ms="56383">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T08:21:33 EEST" name="Check Login with valid data" finished-at="2024-06-12T08:21:53 EEST" duration-ms="20030">
+      <class name="testcases.TC01_Registration">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Registration@280e8a1a]" started-at="2024-06-12T08:21:33 EEST" name="setupDriver" finished-at="2024-06-12T08:21:40 EEST" duration-ms="7080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="registerNewUserWithValidData_P()[pri:1, instance:testcases.TC01_Registration@280e8a1a]" started-at="2024-06-12T08:21:40 EEST" name="registerNewUserWithValidData_P" description="Register New User With Valid Data" finished-at="2024-06-12T08:21:52 EEST" duration-ms="11606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Registration@280e8a1a]" started-at="2024-06-12T08:21:52 EEST" name="tearDown" finished-at="2024-06-12T08:21:53 EEST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_Registration -->
+    </test> <!-- Check Login with valid data -->
+    <test started-at="2024-06-12T08:21:53 EEST" name="loginWithValidData_P" finished-at="2024-06-12T08:22:05 EEST" duration-ms="11273">
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@3f93e4a8]" started-at="2024-06-12T08:21:53 EEST" name="setupDriver" finished-at="2024-06-12T08:21:56 EEST" duration-ms="3012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@3f93e4a8]" started-at="2024-06-12T08:21:56 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:22:05 EEST" duration-ms="8132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@3f93e4a8]" started-at="2024-06-12T08:22:05 EEST" name="tearDown" finished-at="2024-06-12T08:22:05 EEST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- loginWithValidData_P -->
+    <test started-at="2024-06-12T08:22:05 EEST" name="resetPassword" finished-at="2024-06-12T08:22:17 EEST" duration-ms="12792">
+      <class name="testcases.TC03_ResetPassword">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_ResetPassword@342726f1]" started-at="2024-06-12T08:22:05 EEST" name="setupDriver" finished-at="2024-06-12T08:22:08 EEST" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="resetPassword()[pri:1, instance:testcases.TC03_ResetPassword@342726f1]" started-at="2024-06-12T08:22:08 EEST" name="resetPassword" description="Reset Password" finished-at="2024-06-12T08:22:17 EEST" duration-ms="9769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_ResetPassword@342726f1]" started-at="2024-06-12T08:22:17 EEST" name="tearDown" finished-at="2024-06-12T08:22:17 EEST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_ResetPassword -->
+    </test> <!-- resetPassword -->
+    <test started-at="2024-06-12T08:22:17 EEST" name="searchForAnyProduct" finished-at="2024-06-12T08:22:30 EEST" duration-ms="12212">
+      <class name="testcases.TC04_SearchFunction">
+        <test-method signature="searchForAnyProduct()[pri:1, instance:testcases.TC04_SearchFunction@20749d9]" started-at="2024-06-12T08:22:27 EEST" name="searchForAnyProduct" description="Search for a product" finished-at="2024-06-12T08:22:30 EEST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAnyProduct -->
+      </class> <!-- testcases.TC04_SearchFunction -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@6f89292e]" started-at="2024-06-12T08:22:17 EEST" name="setupDriver" finished-at="2024-06-12T08:22:20 EEST" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@6f89292e]" started-at="2024-06-12T08:22:20 EEST" name="loginWithValidData_P" description="Login to System with Valid Data" finished-at="2024-06-12T08:22:27 EEST" duration-ms="7555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@6f89292e]" started-at="2024-06-12T08:22:30 EEST" name="tearDown" finished-at="2024-06-12T08:22:30 EEST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- searchForAnyProduct -->
+  </suite> <!-- Nop Commerce Testcases (0) -->
+</testng-results>

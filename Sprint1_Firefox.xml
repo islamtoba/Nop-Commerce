@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop Commerce Testcases">
+
+    <parameter name="browser" value="Firefox"/>
+<!--    <test name="registerNewUserWithValidData_P">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC01_Registration">-->
+<!--                <methods>-->
+<!--                    <include name="registerNewUserWithValidData_P"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="loginWithValidData_P">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="resetPassword">
+        <classes>
+            <class name="testcases.TC03_ResetPassword">
+                <methods>
+                    <include name="resetPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="searchForAnyProduct">
+
+    <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_SearchFunction">
+                <methods>
+                    <include name="searchForAnyProduct"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

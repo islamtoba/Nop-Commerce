@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop Commerce Testcases">
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="changeCurrency">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_ChangeCurrency">
+                <methods>
+                    <include name="changeCurrency"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="chooseRandomCategory">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC06_SelectRandomCategorie">
+                <methods>
+                    <include name="chooseRandomCategory"/>
+                </methods>
+            </class>
+        </classes>
+    </test
+
+    >
+    <parameter name="browser" value="Firefox"/>
+
+    <test name="TC07_UserSelectDiffCatg">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC07_UserSelectDiffCatg">
+                <methods>
+                    <include name="userSelectDiffCatg"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

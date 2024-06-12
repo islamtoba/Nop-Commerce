@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop Commerce Testcases">
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="userAddToCart">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC09_AddToCartSenario">
+                <methods>
+                    <include name="userAddToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="userAddToWishList">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC10_AddToWishListSenario">
+                <methods>
+                    <include name="userAddToWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="userAddToCompareList">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC11_AddToCompareListSenario">
+                <methods>
+                    <include name="userAddToCompareList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <!--    <test name="userAddToCompareList">-->
+    <!--        <classes>-->
+    <!--            <class name="testcases.TC02_Login">-->
+    <!--                <methods>-->
+    <!--                    <include name="loginWithValidData_P"/>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--            <class name="testcases.TC13_FillingBillingAdress">-->
+    <!--                <methods>-->
+    <!--                    <include name="userAddToCompareList"/>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="createSuccessfulOrder">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC09_AddToCartSenario">
+                <methods>
+                    <include name="userAddToCart"/>
+                </methods>
+            </class>
+            <class name="testcases.TC12_CheckoutIteams">
+                <methods>
+                    <include name="checkoutIteams"/>
+                </methods>
+            </class>
+            <class name="testcases.TC14_EditFillingAdress">
+                <methods>
+                    <include name="Edit_BillingAdress"/>
+                </methods>
+            </class>
+            <class name="testcases.TC15_ConfirmOrder">
+                <methods>
+                    <include name="createSuccessfulOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

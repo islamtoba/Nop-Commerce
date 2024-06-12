@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nop Commerce Testcases (3)]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Firefox"/>
+  <test thread-count="5" name="Check Login with valid data(failed)">
+    <classes>
+      <class name="testcases.TC01_Registration">
+        <methods>
+          <include name="registerNewUserWithValidData_P"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcases.TC01_Registration -->
+    </classes>
+  </test> <!-- Check Login with valid data(failed) -->
+</suite> <!-- Failed suite [Nop Commerce Testcases (3)] -->
