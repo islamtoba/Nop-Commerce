@@ -38,6 +38,11 @@ jobs:
       - name: Build and Test with Maven
         run: mvn clean verify
 
+      - name: Print XML report
+        run: |
+          echo "Contents of Surefire XML report (testng-results.xml):"
+          cat target/surefire-reports/testng-results.xml
+
       - name: Display Surefire XML report
         if: always()
         run: |
