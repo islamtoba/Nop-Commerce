@@ -48,10 +48,15 @@ jobs:
         id: extract_results
         run: |
           echo "Extracting test results..."
-          xmlstarlet sel -t -v "/testng-results/@total" target/surefire-reports/testng-results.xml
-          xmlstarlet sel -t -v "/testng-results/@failed" target/surefire-reports/testng-results.xml
-          xmlstarlet sel -t -v "/testng-results/@skipped" target/surefire-reports/testng-results.xml
-          xmlstarlet sel -t -v "/testng-results/@passed" target/surefire-reports/testng-results.xml
+          total_tests=$(xmlstarlet sel -t -v "/testng-results/@total" target/surefire-reports/testng-results.xml || echo "0")
+          failed_tests=$(xmlstarlet sel -t -v "/testng-results/@failed" target/surefire-reports/testng-results.xml || echo "0")
+          skipped_tests=$(xmlstarlet sel -t -v "/testng-results/@skipped" target/surefire-reports/testng-results.xml || echo "0")
+          passed_tests=$(xmlstarlet sel -t -v "/testng-results/@passed" target/surefire-reports/testng-results.xml || echo "0")
+          echo "total=$total_tests" >> $GITHUB_ENV
+          echo "failed=$failed_tests" >> $GITHUB_ENV
+          echo "skipped=$skipped_tests" >> $GITHUB_ENV
+          echo "passed=$passed_tests" >> $GITHUB_ENV
+          echo "Extracted: Total=$total_tests, Failed=$failed_tests, Skipped=$skipped_tests, Passed=$passed_tests"
 
       - name: Display test results summary
         if: always()
