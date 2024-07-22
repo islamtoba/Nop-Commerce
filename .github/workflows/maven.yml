@@ -32,7 +32,7 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v1.1.0
       with:
-        build_directory: 'target'
+        directory: 'target'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
