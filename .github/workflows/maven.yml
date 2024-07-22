@@ -68,12 +68,12 @@ jobs:
         run: |
           echo "### Test Results:" > markdown_table.md
           echo "### Passed Test Cases:" >> markdown_table.md
-          xmlstarlet sel -t -m "//test-method[@status='PASS' and not(@name=preceding::test-method[@status='PASS']/@name)]" -v "@name" -n target/surefire-reports/testng-results.xml >> markdown_table.md
+          xmlstarlet sel -t -m "//test-method[@status='PASS' and not(@name=preceding::test-method[@status='PASS']/@name)]" -v "@name" -n target/surefire-reports/testng-results.xml >> markdown_table.md || echo "Error generating passed test cases list." >> markdown_table.md
           echo "------------------------------" >> markdown_table.md
           echo "### Failed Test Cases:" >> markdown_table.md
           failed_tests=$(xmlstarlet sel -t -v "count(//test-method[@status='FAIL'])" target/surefire-reports/testng-results.xml)
           if [ "$failed_tests" -gt 0 ]; then
-            xmlstarlet sel -t -m "//test-method[@status='FAIL' and not(@name=preceding::test-method[@status='FAIL']/@name)]" -v "@name" -n target/surefire-reports/testng-results.xml >> markdown_table.md
+            xmlstarlet sel -t -m "//test-method[@status='FAIL' and not(@name=preceding::test-method[@status='FAIL']/@name)]" -v "@name" -n target/surefire-reports/testng-results.xml >> markdown_table.md || echo "Error generating failed test cases list." >> markdown_table.md
           else
             echo "No failed test cases." >> markdown_table.md
           fi
