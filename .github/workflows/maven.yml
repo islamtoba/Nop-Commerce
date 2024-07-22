@@ -47,14 +47,11 @@ jobs:
       - name: Extract test results
         id: extract_results
         run: |
-          total_tests=$(xmlstarlet sel -t -v "/testng-results/@total" target/surefire-reports/testng-results.xml)
-          failed_tests=$(xmlstarlet sel -t -v "/testng-results/@failed" target/surefire-reports/testng-results.xml)
-          skipped_tests=$(xmlstarlet sel -t -v "/testng-results/@skipped" target/surefire-reports/testng-results.xml)
-          passed_tests=$(xmlstarlet sel -t -v "/testng-results/@passed" target/surefire-reports/testng-results.xml)
-          echo "total=$total_tests" >> $GITHUB_ENV
-          echo "failed=$failed_tests" >> $GITHUB_ENV
-          echo "skipped=$skipped_tests" >> $GITHUB_ENV
-          echo "passed=$passed_tests" >> $GITHUB_ENV
+          echo "Extracting test results..."
+          xmlstarlet sel -t -v "/testng-results/@total" target/surefire-reports/testng-results.xml
+          xmlstarlet sel -t -v "/testng-results/@failed" target/surefire-reports/testng-results.xml
+          xmlstarlet sel -t -v "/testng-results/@skipped" target/surefire-reports/testng-results.xml
+          xmlstarlet sel -t -v "/testng-results/@passed" target/surefire-reports/testng-results.xml
 
       - name: Display test results summary
         if: always()
@@ -62,6 +59,7 @@ jobs:
           echo "Total test cases = ${{ env.total }}"
           echo "Passed test cases = ${{ env.passed }}"
           echo "Failed test cases = ${{ env.failed }}"
+          echo "Skipped test cases = ${{ env.skipped }}"
 
       - name: Generate Markdown table
         id: generate_markdown_table
