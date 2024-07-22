@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
   packages: read
-  dependency-graph: write
+  security-events: write
 
 jobs:
   build:
