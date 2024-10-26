@@ -63,26 +63,26 @@ To set up the Nop Commerce application locally, follow these steps:
 * Make your changes and submit a pull request.
 
 ## Test Scenarios
-*SC1- User could register with valid data
-*SC2- User could log in with valid email and password
-*SC3- User could reset his/her password successfully ***Note**** in this case you just need to confirm that this message is displayed "Email with instructions has been sent to you."
--using same mail from reg and login
-*SC4- Logged User could search for any product
+* SC1 - User could register with valid data.
+* SC2 - User could log in with valid email and password.
+* SC3 - User could reset his/her password successfully ***Note**** in this case you just need to confirm that this message is displayed "Email with instructions has been sent to you."
+ -using same mail from reg and login.
+* SC4 - Logged User could search for any product
 -login	
 -search for any product
-*SC5- Logged User could switch between currencies US-Euro
+* SC5- Logged User could switch between currencies US-Euro
 -login
 -change currency
-*SC6- Logged user could select different Categories ***Note*** *Select random category then hover and open sub-Category if found*
+* SC6- Logged user could select different Categories ***Note*** *Select random category then hover and open sub-Category if found*.
 --login
--hover for random categories
+-hover for random categories.
 (//a[i or 44]
-*SC7- Logged user could filter with color ***Note*** *in this case you should select specific category like Apparel > Shoes*
-*SC8- Logged user could select different tags
-*SC9- Logged user could add different products to Shopping cart
-*SC10- Logged user could add different products to Wishlist
-*SC11- Logged user could add different products to compare list
-*SC12- Create successful Order
+* SC7- Logged user could filter with color ***Note*** *in this case you should select specific category like Apparel > Shoes*.
+* SC8- Logged user could select different tags.
+* SC9- Logged user could add different products to Shopping cart.
+* SC10- Logged user could add different products to Wishlist.
+* SC11- Logged user could add different products to compare list.
+* SC12- Create successful Order.
 
   
 ## License
